@@ -4,3 +4,7 @@ npm install
 npm run dev
 php artisan migrate
 php artisan make:controller HomeController
+php artisan make:controller AdminController
+php artisan make:model Category -m
+php artisan migrate
+php artisan make:model Product -m
